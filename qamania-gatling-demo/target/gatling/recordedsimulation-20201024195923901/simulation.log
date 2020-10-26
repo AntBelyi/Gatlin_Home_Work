@@ -1,0 +1,42 @@
+ASSERTION	AAECAAMEAAAAAAAAwFdA
+RUN	demoanton.RecordedSimulation	recordedsimulation	1603569563901	 	3.3.1
+USER	RecordedSimulation	1	START	1603569564735	1603569564735
+REQUEST	1		homePage	1603569564788	1603569564791	KO	j.n.UnknownHostException: Этот хост неизвестен (applegadjet.com.ua)
+USER	RecordedSimulation	2	START	1603569567729	1603569567729
+REQUEST	2		homePage	1603569567733	1603569567738	KO	j.n.UnknownHostException: applegadjet.com.ua
+REQUEST	1		iPhonePage	1603569568429	1603569568430	KO	j.n.UnknownHostException: applegadjet.com.ua
+REQUEST	2		iPhonePage	1603569571028	1603569571028	KO	j.n.UnknownHostException: applegadjet.com.ua
+USER	RecordedSimulation	3	START	1603569571726	1603569571726
+REQUEST	3		homePage	1603569571729	1603569571731	KO	j.n.UnknownHostException: applegadjet.com.ua
+REQUEST	3		iPhonePage	1603569575099	1603569575103	KO	j.n.UnknownHostException: Этот хост неизвестен (applegadjet.com.ua)
+USER	RecordedSimulation	4	START	1603569575734	1603569575734
+REQUEST	4		homePage	1603569575737	1603569575740	KO	j.n.UnknownHostException: applegadjet.com.ua
+REQUEST	4		iPhonePage	1603569577265	1603569577266	KO	j.n.UnknownHostException: applegadjet.com.ua
+REQUEST	1		selectedIPhonePage	1603569581415	1603569581416	KO	j.n.UnknownHostException: applegadjet.com.ua
+REQUEST	2		selectedIPhonePage	1603569584027	1603569584028	KO	j.n.UnknownHostException: applegadjet.com.ua
+REQUEST	1		buyAndGoToCart	1603569585257	1603569585260	KO	j.n.UnknownHostException: Этот хост неизвестен (applegadjet.com.ua)
+REQUEST	2		buyAndGoToCart	1603569587661	1603569587663	KO	j.n.UnknownHostException: applegadjet.com.ua
+REQUEST	1		homePageAgain	1603569587755	1603569587756	KO	j.n.UnknownHostException: applegadjet.com.ua
+REQUEST	3		selectedIPhonePage	1603569588109	1603569588110	KO	j.n.UnknownHostException: applegadjet.com.ua
+REQUEST	3		buyAndGoToCart	1603569589667	1603569589668	KO	j.n.UnknownHostException: applegadjet.com.ua
+REQUEST	4		selectedIPhonePage	1603569590283	1603569590284	KO	j.n.UnknownHostException: applegadjet.com.ua
+REQUEST	1		watchPage	1603569590345	1603569590346	KO	j.n.UnknownHostException: applegadjet.com.ua
+REQUEST	2		homePageAgain	1603569591763	1603569591763	KO	j.n.UnknownHostException: applegadjet.com.ua
+REQUEST	3		homePageAgain	1603569591855	1603569591856	KO	j.n.UnknownHostException: applegadjet.com.ua
+REQUEST	4		buyAndGoToCart	1603569593614	1603569593615	KO	j.n.UnknownHostException: applegadjet.com.ua
+REQUEST	2		watchPage	1603569595406	1603569595409	KO	j.n.UnknownHostException: Этот хост неизвестен (applegadjet.com.ua)
+REQUEST	3		watchPage	1603569595854	1603569595855	KO	j.n.UnknownHostException: applegadjet.com.ua
+REQUEST	4		homePageAgain	1603569598583	1603569598584	KO	j.n.UnknownHostException: applegadjet.com.ua
+REQUEST	4		watchPage	1603569601488	1603569601488	KO	j.n.UnknownHostException: applegadjet.com.ua
+REQUEST	1		selectedWatchPage	1603569605352	1603569605352	KO	j.n.UnknownHostException: applegadjet.com.ua
+REQUEST	1		buyAndGoToCartFromWatch	1603569608119	1603569608992	OK	 
+USER	RecordedSimulation	1	END	1603569564735	1603569609029
+REQUEST	2		selectedWatchPage	1603569610405	1603569610687	OK	 
+REQUEST	3		selectedWatchPage	1603569610854	1603569611085	OK	 
+REQUEST	3		buyAndGoToCartFromWatch	1603569614260	1603569614371	OK	 
+USER	RecordedSimulation	3	END	1603569571726	1603569614375
+REQUEST	2		buyAndGoToCartFromWatch	1603569614699	1603569614804	OK	 
+USER	RecordedSimulation	2	END	1603569567729	1603569614808
+REQUEST	4		selectedWatchPage	1603569616486	1603569616737	OK	 
+REQUEST	4		buyAndGoToCartFromWatch	1603569620289	1603569620397	OK	 
+USER	RecordedSimulation	4	END	1603569575734	1603569620401

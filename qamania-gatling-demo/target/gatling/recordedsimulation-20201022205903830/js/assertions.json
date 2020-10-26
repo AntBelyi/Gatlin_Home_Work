@@ -1,0 +1,10 @@
+{
+  "simulation": "demoanton.RecordedSimulation",
+  "simulationId": "recordedsimulation",
+  "start": 1603400343830,
+  "description": "",
+  "scenarios": ["RecordedSimulation"],
+  "assertions": [
+
+  ]
+}

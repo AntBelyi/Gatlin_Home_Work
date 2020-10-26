@@ -1,0 +1,9 @@
+RUN	demoanton.RecordedSimulation	recordedsimulation	1603402704630	 	3.3.1
+USER	RecordedSimulation	1	START	1603402706206	1603402706206
+REQUEST	1		open main page	1603402706252	1603402706852	KO	regex(<title>(.+?)</title>).find.is(whateverhttpbin.org), but actually found httpbin.org
+REQUEST	1		delete	1603402728884	1603402729028	KO	status.find.is(300), but actually found 200
+REQUEST	1		get	1603402742016	1603402742158	OK	 
+REQUEST	1		patch	1603402755169	1603402755316	OK	 
+REQUEST	1		post	1603402766313	1603402766456	OK	 
+REQUEST	1		put	1603402791456	1603402791602	OK	 
+USER	RecordedSimulation	1	END	1603402706206	1603402791609
